@@ -1,0 +1,25 @@
+.cast-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 5%;
+    padding-bottom: 7%;
+}
+.characterOuter {
+    border: 1.5px solid white;
+    width: 30%;
+    margin-top: 2%;
+    box-sizing: border-box;
+    padding: 1.5%;
+}
+.characterInner {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+.name {
+    color: #443e3e;
+}

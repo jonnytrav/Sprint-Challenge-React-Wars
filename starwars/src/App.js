@@ -31,7 +31,7 @@ class App extends Component {
   };
 
   render() {
-    // console.log(this.state.starwarsChars);
+    console.log(this.state.starwarsChars);
     return (
       <div>
         <div className="App">
